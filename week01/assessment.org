@@ -1,0 +1,23 @@
+* Unit 1 assessment
+
+1. Which of the following components (choose two) run on the master node?
+   - controller
+   - etcd
+2. What is the container engine that is used by IBM Cloud Kubernetes Service?
+   docker
+3. Which type of selector filters keys according to a set of values?
+   set-based
+4. What happens if you omit the instance name when running a kubectl command?
+   It displays details for all instances of the specified type.
+5. True/False: You can use Kubernetes with existing Docker containers and
+   workloads.
+   True.
+6. W​hat component running on the Kubernetes Master can be described as the
+   "brains" of the operation?
+   API server
+7. W​hich component determines where to place a Pod in the cluster?
+   Scheduler
+8. What command can you use to get a list of all Kubernetes resources that are
+   running? 
+   ~kubectl get all~
+   

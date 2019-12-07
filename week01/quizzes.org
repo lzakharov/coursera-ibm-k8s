@@ -1,0 +1,39 @@
+* Quizzes
+  First Week quizzes.
+** What is Kubernetes? 
+  1. What is Kubernetes (two words)?
+     container orchestrator
+  2. In the container ecosystem, where does Kubernetes fit in?
+     Between the container engine and application workflow
+  1. What type of cloud service is Kubernetes?
+     PaaS
+** Kubernetes architecture and components
+  1. W​hat component running on the Kubernetes Master can be described as the
+     "brains" of the operation? API Server
+  2. W​hat is the job of the kubelet?
+     Runs as an agent on the worker node and communicates with the Master.
+  3. W​hich component determines where to place a Pod in the cluster?
+     Scheduler
+** Kubectl
+  1. When using kubectl commands, what flag can you use to find the arguments
+     and flags that are supported by a subtype? 
+     -h
+  2. What happens if you omit the instance name when running a kubectl command?
+     It displays details for all instances of the specified type.
+** Kubernetes objects
+  1. What is the namespace for objects with no other namespace?
+     default
+  2. What can you use to select objects, and find collections of objects that
+     match certain conditions? 
+     Label
+  3. Which type of Selector filters keys according to a set of values?
+     set-based
+** Containers
+  1. What must you do with a Docker image before you can refer to it in a
+     Kubernetes pod? 
+     Push it to a registry.
+  2. What is a container lifecycle hook?
+     Notification of an event in the container lifecycle.
+  3. What can you add to a configuration file to determine if a container is
+     running? 
+     a liveness probe to the deployment configuration.
