@@ -1,0 +1,8 @@
+* Unit 2 assessment
+
+1. Where can you store, retrieve, and share Docker images?
+   image registry
+2. What can you use to bootstrap a minimum viable Kubernetes cluster?
+   ~kubeadm~
+3. What does a configuration of type Service do?
+   Provides front-end access to Pods.

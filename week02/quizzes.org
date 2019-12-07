@@ -1,0 +1,9 @@
+* Quizzes
+  Second Week quizzes.
+** Configuration
+   1. To define the number of pod replicas to maintain, what kind of
+      configuration do you specify? 
+      Deployment
+   2. W​hich component on a Node implements a form of virtual IP (VIP) address
+      for Services in Kubernetes? 
+      kube-proxy
