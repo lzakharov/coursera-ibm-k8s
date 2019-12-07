@@ -1,0 +1,4 @@
+* IBM Cloud: Deploying Microservices with Kubernetes
+
+Materials for the [[https://www.coursera.org/learn/deploy-micro-kube-ibm-cloud]["IBM Cloud: Deploying Microservices with Kubernetes"]] course on
+the Coursera.
