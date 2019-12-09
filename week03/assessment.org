@@ -1,0 +1,22 @@
+* Unit 3 assessment
+  1. True/False: When a Pod is removed from a Node for any reason, the data in
+     the emptyDir is deleted forever.
+     True
+  2. What Kubernetes object describes an offering of storage and allows for
+     dynamic provisioning, based on those controlled definitions?
+     StorageClass
+  3. True/False: Pods access storage by using a claim (PVC) as a Volume.
+     True
+  4. What is one advantage of using a PersistentVolumeClaim (PVC)?
+     If a Pod goes down, and the Volume is still available, the Pod's 
+     replacement can still use it, even if it's running on a different Node.
+  5. True/False: Containers can communicate with other containers, without NAT.
+     True
+  6. H​ow is Ingress different than NodePort or LoadBalancer?
+     An Ingress does not expose arbitrary ports or protocols.
+  7. True/False: Containers within a Pod share the network namespace and IP
+     address of the Pod.
+     True
+  8. In Kubernetes, how can you create administrative boundaries between groups
+     of resources, for the purpose of isolating and protecting them?
+     By using namespaces

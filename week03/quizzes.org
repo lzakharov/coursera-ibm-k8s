@@ -1,0 +1,38 @@
+* Quizzes
+  Third Week quizzes.
+** Storage management
+   1. T​rue/False: When a Pod is removed from a Node for any reason, the data in
+      the emptyDir is deleted forever.
+      True
+   2. W​hat Kubernetes object describes an offering of storage and allows for
+      dynamic provisioning, based on those controlled definitions?
+      StorageClass
+   3. W​hat is one problem that Volumes solve?
+      Containers are ephemeral, and if one crashes, the data is lost.
+   4. True/False: Pods access storage by using a claim (PVC) as a Volume.
+      True
+   5. True/False: An administrator must create a PersistentVolumeClaim (PVC).
+      Users cannot create PVCs.
+      False
+   6. W​hat is one advantage of using a PersistentVolumeClaim (PVC)? 
+      If a Pod goes down, and the Volume is still available, the Pod's 
+      replacement can still use it, even if it is running on a different Node.
+** Network configuration
+   1. True/False: Containers can communicate with other containers, without NAT.
+      True
+   2. What type of Service exposes the Service internally to the cluster on the
+      cluster IP address, and is also the default?
+      ClusterIP
+   3. H​ow is Ingress different than NodePort or LoadBalancer?
+      An Ingress does not expose arbitrary ports or protocols.
+   4. True/False: Containers within a Pod share the network namespace and IP
+      address of the Pod.
+      True
+** Cluster security
+   1. In Kubernetes, how can you create administrative boundaries between groups
+      of resources, for the purpose of isolating and protecting them?
+      By using namespaces
+   2. What is one way that you can make sure that images are compliant with your
+      organization’s security policies?
+      Use a private registry
+      
