@@ -1,0 +1,11 @@
+* Unit 4 assessment
+  1. If you want to scale your applications up or down, based on available CPU,
+     what feature can you enable?
+     Horizontal pod autoscaling
+  2. What does the kubectl uncordon command do?
+     Marks a Node as "schedulable"
+  3. True/False: Because the kubelet is a normal binary process, you can use
+     systemctl and journalctl to interact with it.
+     True
+  4. What is the tool, Stern, useful for?
+     Streaming logs from multiple Pods

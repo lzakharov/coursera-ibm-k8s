@@ -1,0 +1,14 @@
+* Quizzes
+  Fourth Week quizzes.
+** Maintenance tasks
+   1. If you want to scale your applications up or down, based on available CPU,
+      what feature can you enable?
+      Horizontal pod autoscaling
+   2. W​hat does the kubectl drain command do?
+      Gracefully shuts down a Node and marks it "unschedulable".
+** Troubleshooting
+   1. True/False: Because the kubelet is a normal binary process, you can use
+      systemctl and journalctl to interact with it.
+      True
+   2. W​hat is the tool, Stern, useful for?
+      Streaming logs from multiple Pods
